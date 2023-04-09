@@ -12,8 +12,6 @@ function ContactForm () {
 
 const dispatch = useDispatch()
 const contacts = useSelector(selectContactsState)
-console.log('contacts',contacts)
-
 
 
 const handleSubmit = event => {
